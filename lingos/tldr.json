@@ -1,0 +1,12 @@
+{
+    "id": "tldr",
+    "term": "tl;dr",
+    "text": "an acronym for \"too long; didn't read\" commonly used to give a short summary of a larger piece of text",
+    "lang": {
+        "es": {
+            "term": "tl;dr",
+            "text": "un acr\u00f3nimo para \"muy largo; no lo le\u00ed\" usado com\u00fanmente para especificar un resumen de un texto m\u00e1s largo",
+            "author": "fferegrino"
+        }
+    }
+}
