@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+
+export async function getStaticPaths() {
+
+    const jsons = await Astro.glob('../../lingos/*.json')
+
+    return jsons.map((json) => {
+        return {
+            params: {
+                lingo: json['id']
+            },
+            props: {
+                data: json
+            }
+        }
+    })
+}
+
+const { lingo } = Astro.params;
+const { data } = Astro.props;
+---
+<Layout title="Welcome to Astro.">
+  <p>Posts tagged with {data.term}</p>
+</Layout>
