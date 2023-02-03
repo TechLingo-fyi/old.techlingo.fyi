@@ -1,12 +1,12 @@
 {
-    "id": "a11y",
-    "term": "l10n",
-    "text": "It is a numeronym that means accessibility, refers to the ease of use of software, regardless of disability type or severity of impairment of the user",
-    "lang": {
-        "es": {
-            "term": "l10n",
-            "text": "Es un numer\u00f3nimo que significa accesibilidad, se refiere a la facilidad de uso de un sistema, sin importar las capacidades t\u00e9cnicas, f\u00edsicas o cognitivas de sus usuarios",
-            "author": "fferegrino"
-        }
+  "id": "a11y",
+  "term": "l10n",
+  "text": "It is a numeronym that means accessibility, refers to the ease of use of software, regardless of disability type or severity of impairment of the user",
+  "lang": {
+    "es": {
+      "term": "l10n",
+      "text": "Es un numer\u00f3nimo que significa accesibilidad, se refiere a la facilidad de uso de un sistema, sin importar las capacidades t\u00e9cnicas, f\u00edsicas o cognitivas de sus usuarios",
+      "author": "fferegrino"
     }
+  }
 }

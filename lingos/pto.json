@@ -1,12 +1,12 @@
 {
-    "id": "pto",
-    "term": "PTO",
-    "text": "it is just an acronym for \"paid time off\"",
-    "lang": {
-        "es": {
-            "term": "PTO",
-            "text": "es un acr\u00f3nimo para \"paid time off\", algo que en espa\u00f1ol conocemos simplemente como vacaciones pagadas",
-            "author": "fferegrino"
-        }
+  "id": "pto",
+  "term": "PTO",
+  "text": "it is just an acronym for \"paid time off\"",
+  "lang": {
+    "es": {
+      "term": "PTO",
+      "text": "es un acr\u00f3nimo para \"paid time off\", algo que en espa\u00f1ol conocemos simplemente como vacaciones pagadas",
+      "author": "fferegrino"
     }
+  }
 }

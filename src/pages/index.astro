@@ -1,14 +1,12 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import LingoCards from "../components/Lingos";
 
-import Layout from '../layouts/Layout.astro';
-import LingoCards from '../components/Lingos';
-
-const jsons = await Astro.glob('../../lingos/*.json');
-
+const jsons = await Astro.glob("../../lingos/*.json");
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-	<LingoCards lingos={jsons} />
-	</main>
+  <main>
+    <LingoCards lingos={jsons} />
+  </main>
 </Layout>

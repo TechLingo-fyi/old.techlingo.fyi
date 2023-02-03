@@ -1,12 +1,12 @@
 {
-    "id": "backlog",
-    "term": "backlog",
-    "text": "when working with the agile methodology, we use the word \"backlog\" to refer to the list of pending work, this list is ideally ordered by priority",
-    "lang": {
-        "es": {
-            "term": "backlog",
-            "text": "en la metodolog\u00eda \u00e1gil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad",
-            "author": "fferegrino"
-        }
+  "id": "backlog",
+  "term": "backlog",
+  "text": "when working with the agile methodology, we use the word \"backlog\" to refer to the list of pending work, this list is ideally ordered by priority",
+  "lang": {
+    "es": {
+      "term": "backlog",
+      "text": "en la metodolog\u00eda \u00e1gil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad",
+      "author": "fferegrino"
     }
+  }
 }

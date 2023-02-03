@@ -1,12 +1,12 @@
 {
-    "id": "curl",
-    "term": "cURL",
-    "text": "it is a library and a command line tool to transfer data using different network protocols",
-    "lang": {
-        "es": {
-            "term": "cURL",
-            "text": "es una biblioteca y una herramienta de consola para transferir informaci\u00f3n usando diversos protocolos de red",
-            "author": "fferegrino"
-        }
+  "id": "curl",
+  "term": "cURL",
+  "text": "it is a library and a command line tool to transfer data using different network protocols",
+  "lang": {
+    "es": {
+      "term": "cURL",
+      "text": "es una biblioteca y una herramienta de consola para transferir informaci\u00f3n usando diversos protocolos de red",
+      "author": "fferegrino"
     }
+  }
 }

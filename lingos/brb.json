@@ -1,12 +1,12 @@
 {
-    "id": "brb",
-    "term": "BRB",
-    "text": "an acronym for \"be right back\", used to say you are leaving a conversation or meeting but will come back soon",
-    "lang": {
-        "es": {
-            "term": "BRB",
-            "text": "un acr\u00f3nimo para \"be right back\", se usa cuando tienes que salir de una junta o conversaci\u00f3n pero regresar\u00e1s pronto",
-            "author": "fferegrino"
-        }
+  "id": "brb",
+  "term": "BRB",
+  "text": "an acronym for \"be right back\", used to say you are leaving a conversation or meeting but will come back soon",
+  "lang": {
+    "es": {
+      "term": "BRB",
+      "text": "un acr\u00f3nimo para \"be right back\", se usa cuando tienes que salir de una junta o conversaci\u00f3n pero regresar\u00e1s pronto",
+      "author": "fferegrino"
     }
+  }
 }

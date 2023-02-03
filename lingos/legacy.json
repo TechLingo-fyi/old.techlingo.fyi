@@ -1,12 +1,12 @@
 {
-    "id": "legacy",
-    "term": "Legacy",
-    "text": "A system, technology or application that is considered obsolete or old but is still used within an organisation",
-    "lang": {
-        "es": {
-            "term": "Legacy",
-            "text": "Sistema, tecnolog\u00eda o aplicaci\u00f3n antiguo o desactualizado que se sigue utilizando dentro de una organizaci\u00f3n.",
-            "author": "kinduff"
-        }
+  "id": "legacy",
+  "term": "Legacy",
+  "text": "A system, technology or application that is considered obsolete or old but is still used within an organisation",
+  "lang": {
+    "es": {
+      "term": "Legacy",
+      "text": "Sistema, tecnolog\u00eda o aplicaci\u00f3n antiguo o desactualizado que se sigue utilizando dentro de una organizaci\u00f3n.",
+      "author": "kinduff"
     }
+  }
 }
