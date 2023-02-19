@@ -1,13 +1,13 @@
 {
-  "term": "Legacy",
+  "term": "legacy",
   "definitions": [
     {
       "lang": "en",
-      "definition": "A system, technology or application that is considered obsolete or old but is still used within an organisation"
+      "definition": "Refers to outdated technology or systems that are still in use, typically due to the cost and complexity of replacing them."
     },
     {
       "lang": "es",
-      "definition": "Sistema, tecnolog\u00eda o aplicaci\u00f3n antiguo o desactualizado que se sigue utilizando dentro de una organizaci\u00f3n."
+      "definition": "Se refiere a tecnología o sistemas obsoletos que aún se utilizan, típicamente debido al costo y la complejidad de reemplazarlos."
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "term": "Build vs buy",
+  "term": "Build vs Buy",
   "definitions": [
     {
       "lang": "en",
-      "definition": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else."
+      "definition": "Decision process of evaluating if a solution should be built in-house or purchased externally."
     },
     {
       "lang": "es",
-      "definition": "es un dilema com\u00fan en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta."
+      "definition": "Proceso de decisión que evalúa si una solución debe ser construida internamente o comprada externamente."
     }
   ]
 }

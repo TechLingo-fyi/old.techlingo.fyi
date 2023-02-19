@@ -1,13 +1,13 @@
 {
-  "term": "sprint",
+  "term": "Sprint",
   "definitions": [
     {
       "lang": "en",
-      "definition": "is a fixed interval of time, ranging between a week and a month, during which a part of a software product is built"
+      "definition": "A period of time (usually one or two weeks) in which a team works to complete a set of tasks, typically in the context of agile software development."
     },
     {
       "lang": "es",
-      "definition": "es un intervalo fijo de tiempo, de entre una semana y un mes, durante el cual se cumple con crear una parte de un producto de software"
+      "definition": "Un período de tiempo (generalmente de una o dos semanas) en el que un equipo trabaja para completar un conjunto de tareas, típicamente en el contexto del desarrollo de software ágil."
     }
   ]
 }

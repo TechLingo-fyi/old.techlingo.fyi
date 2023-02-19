@@ -1,13 +1,13 @@
 {
-  "term": "IMO",
+  "term": "imo",
   "definitions": [
     {
       "lang": "en",
-      "definition": "used to specify that what you are about to say is your opinion: \"imo, I find this too easy\""
+      "definition": "Abbreviation for 'In My Opinion', used to indicate that the following statement is the speaker's personal opinion."
     },
     {
       "lang": "es",
-      "definition": "usado para expresar que lo que est\u00e1s a punto de decir es una opini\u00f3n, ejemplo: \"imo, I find this too easy\""
+      "definition": "Acrónimo de 'En Mi Opinión', utilizado para indicar que la siguiente declaración es la opinión personal del hablante."
     }
   ]
 }

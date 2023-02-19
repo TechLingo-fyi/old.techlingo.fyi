@@ -3,11 +3,11 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request."
+      "definition": "Abbreviation for 'Looks Good To Me', indicating that the speaker approves or agrees with something that has been presented."
     },
     {
       "lang": "es",
-      "definition": "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integraci\u00f3n de c\u00f3digo puede llevarse a cabo. Por ejemplo, a trav\u00e9s un pull request en GitHub."
+      "definition": "Acrónimo de 'Parece Bien Para Mí', indicando que el hablante aprueba o está de acuerdo con algo que se ha presentado."
     }
   ]
 }

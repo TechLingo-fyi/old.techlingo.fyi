@@ -3,11 +3,11 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "a term used when a company uses the same products they produce; Microsoft employees using Word is an example of \"dogfooding\""
+      "definition": "Practice of using a company's own products or services to test and improve them."
     },
     {
       "lang": "es",
-      "definition": "es un t\u00e9rmino que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\""
+      "definition": "Práctica de utilizar los propios productos o servicios de una empresa para probarlos y mejorarlos."
     }
   ]
 }

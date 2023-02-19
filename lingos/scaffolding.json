@@ -3,11 +3,11 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool."
+      "definition": "Refers to a temporary structure or framework used to support the construction of a building or other object. In software development, scaffolding refers to the initial code or framework used to create a new application or feature."
     },
     {
       "lang": "es",
-      "definition": "es un t\u00e9rmino usado para referirse al c\u00f3digo inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\"."
+      "definition": "Se refiere a una estructura o marco temporal utilizado para apoyar la construcción de un edificio u otro objeto. En el desarrollo de software, el andamiaje se refiere al código o marco inicial utilizado para crear una nueva aplicación o característica."
     }
   ]
 }
