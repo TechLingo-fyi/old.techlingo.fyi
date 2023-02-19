@@ -1,32 +1,35 @@
 <!-- navbar goes here -->
-<nav class="bg-gray-100">
+<nav class="dark:bg-dark3">
   <div class="max-w-6xl mx-auto px-4">
     <div class="flex justify-between">
       <div class="flex space-x-4">
         <!-- logo -->
         <div>
           <a
-            href="#"
-            class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
+            href="/"
+            class="flex items-center py-5 px-2 text-gray-900 dark:text-white"
           >
             <svg
-              class="h-6 w-6 mr-1 text-blue-400"
+              class="h-6 w-6 mr-1 fill-gray-900 dark:fill-white"
+              viewBox="0 0 230 230"
+              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+              <title>fyi</title>
+              <g id=".fyi" stroke="none" stroke-width="1" fill-rule="evenodd">
+                <path
+                  d="M89.1,105 L111.5,127.4 L103.2,147.4 L75,119 L42,152 L28,137.8 L60.8,105 L52,96.2 C46.7,90.9 42,83.2 39,75 L61,75 C62.5,77.8 64.3,80.3 66.1,82 L75,91 L83.8,82.2 C89.8,76 95,63.4 95,55 L15,55 L15,35 L65,35 L65,15 L85,15 L85,35 L135,35 L135,55 L115,55 C115,68.7 107.6,86.5 98,96.2 L89,105 L89.1,105 Z M127.5,185 L115,215 L95,215 L145,95 L165,95 L215,215 L195,215 L182.5,185 L127.5,185 Z M135.8,165 L174.2,165 L155,119 L135.8,165 Z"
+                  id="Shape"
+                  fill-rule="nonzero"></path>
+              </g>
             </svg>
             <span class="font-bold">TechLingo.fyi</span>
           </a>
         </div>
 
         <!-- primary nav -->
+        <!-- 
         <div class="hidden md:flex items-center space-x-1">
           <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
             >Features</a
@@ -35,9 +38,11 @@
             >Pricing</a
           >
         </div>
+         -->
       </div>
 
       <!-- secondary nav -->
+      <!-- 
       <div class="hidden md:flex items-center space-x-1">
         <a href="" class="py-5 px-3">Login</a>
         <a
@@ -46,10 +51,11 @@
           >Signup</a
         >
       </div>
+         -->
 
       <!-- mobile button goes here -->
       <div class="md:hidden flex items-center">
-        <button class="mobile-menu-button">
+        <button title="Mobile menu button" class="mobile-menu-button">
           <svg
             class="w-6 h-6"
             xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +76,9 @@
 
   <!-- mobile menu -->
   <div class="mobile-menu hidden md:hidden">
+    <!--
     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
+     -->
   </div>
 </nav>

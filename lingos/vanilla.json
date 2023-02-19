@@ -4,9 +4,13 @@
   "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
   "lang": {
     "es": {
-      "term": "Vanilla",
-      "text": "es un t\u00e9rmino usado para referirse al software en su forma m\u00e1s pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no us\u00f3 ning\u00fan framework.",
-      "author": "fferegrino"
+      "text": "es un t\u00e9rmino usado para referirse al software en su forma m\u00e1s pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no us\u00f3 ning\u00fan framework."
+    },
+    "ja": {
+      "text": "最も純粋な形のソフトウェアを指す用語です。 たとえば、ある人が「普通の JavaScript」で何かをしたと言うとき、それはフレームワークをまったく使用していないことを意味します。"
+    },
+    "ar": {
+      "text": "هو مصطلح يستخدم للإشارة إلى البرامج في أنقى صورها. على سبيل المثال ، عندما يقول شخص ما أنه فعل شيئًا ما في \"Vanilla JavaScript\" ، فهذا يعني أنه لم يستخدم أي إطار عمل."
     }
   }
 }

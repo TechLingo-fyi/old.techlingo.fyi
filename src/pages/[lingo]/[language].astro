@@ -1,10 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import LingoDefinitions from "../components/LingoDefinitions.tsx";
+import Layout from "../../layouts/Layout.astro";
+import LingoDefinitions from "../../components/LingoDefinitions.tsx";
 import slugify from "slugify";
 
 export async function getStaticPaths() {
-  const jsons = await Astro.glob("../../lingos/*.json");
+  const jsons = await Astro.glob("../../../lingos/*.json");
 
   const list = jsons.map((json) => {
     const languages = new Array();
@@ -16,6 +16,7 @@ export async function getStaticPaths() {
       return {
         params: {
           lingo: slugify(json["term"], { lower: true }),
+          language: language,
         },
         props: {
           data: json,
@@ -26,10 +27,11 @@ export async function getStaticPaths() {
 
   // Flatten the list
   const paths = list.flat();
+  console.log(paths);
   return paths;
 }
 
-const { lingo, language } = Astro.params;
+const { ling, language } = Astro.params;
 const { data } = Astro.props;
 ---
 
@@ -43,7 +45,7 @@ const { data } = Astro.props;
       >
         {data.term}
       </h3>
-      <LingoDefinitions data={data} language={"en"} />
+      <LingoDefinitions data={data} language={language} />
     </div>
   </div>
 </Layout>
