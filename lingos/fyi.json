@@ -1,12 +1,13 @@
 {
-  "id": "fyi",
   "term": "fyi",
-  "text": "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to.",
-  "lang": {
-    "es": {
-      "term": "fyi",
-      "text": "es un acr\u00f3nimo para \"para tu informaci\u00f3n\" en espa\u00f1ol; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta.",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to."
+    },
+    {
+      "lang": "es",
+      "definition": "es un acr\u00f3nimo para \"para tu informaci\u00f3n\" en espa\u00f1ol; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta."
     }
-  }
+  ]
 }

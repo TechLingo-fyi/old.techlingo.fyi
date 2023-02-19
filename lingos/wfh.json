@@ -1,14 +1,13 @@
 {
-  "id": "wfh",
   "term": "WFH",
-  "text": "as opposed to working from the office",
-  "acronym": "Work From Home",
-  "lang": {
-    "es": {
-      "term": "WFH",
-      "text": "trabajo desde casa",
-      "author": "fferegrino",
-      "acronym": "Work From Home"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "as opposed to working from the office"
+    },
+    {
+      "lang": "es",
+      "definition": "trabajo desde casa"
     }
-  }
+  ]
 }

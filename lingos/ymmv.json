@@ -1,12 +1,13 @@
 {
-  "id": "ymmv",
   "term": "YMMV",
-  "text": "an acronym for \"your mileage may vary\", used to signal that you understand people may have a different experience to yours and what you are saying is just your opinion",
-  "lang": {
-    "es": {
-      "term": "YMMV",
-      "text": "un acr\u00f3nimo para \"your mileage may vary\", usado para se\u00f1alar que entiendes que otras personas pueden tener distintas experiencias y que lo que est\u00e1s diciendo es solo tu opini\u00f3n",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "an acronym for \"your mileage may vary\", used to signal that you understand people may have a different experience to yours and what you are saying is just your opinion"
+    },
+    {
+      "lang": "es",
+      "definition": "un acr\u00f3nimo para \"your mileage may vary\", usado para se\u00f1alar que entiendes que otras personas pueden tener distintas experiencias y que lo que est\u00e1s diciendo es solo tu opini\u00f3n"
     }
-  }
+  ]
 }

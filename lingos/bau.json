@@ -1,12 +1,13 @@
 {
-  "id": "bau",
   "term": "BAU",
-  "text": "an acronym for \"business as usual\", used to say that an event is happening as it was meant to happen; when something is wrong you could say \"this is not BAU\"",
-  "lang": {
-    "es": {
-      "term": "BAU",
-      "text": "un acr\u00f3nimo para \"business as usual\", se usa para decir que todo transcurre con normalidad y cuando algo va mal puedes decir \"esto no es BAU\"",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "BAU stands for \"Business As Usual.\" It refers to the normal, day-to-day operations of a business or organization, as opposed to projects, initiatives, or major changes. Examples of BAU activities include customer service, product development, marketing, and accounting."
+    },
+    {
+      "lang": "es",
+      "definition": "BAU significa \"Negocio como de costumbre\". Se refiere a las operaciones normales, cotidianas de un negocio u organización, en contraposición a proyectos, iniciativas o cambios importantes. Ejemplos de actividades BAU incluyen servicio al cliente, desarrollo de productos, marketing y contabilidad."
     }
-  }
+  ]
 }

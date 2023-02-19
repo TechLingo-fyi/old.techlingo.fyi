@@ -1,12 +1,13 @@
 {
-  "id": "ootb",
-  "term": "OOTB",
-  "text": "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language.",
-  "lang": {
-    "es": {
-      "term": "OOTB",
-      "text": "\"Out-Of-The-Box\" es una frase que se suele utilizar para funcionalidades inclu\u00eddas por default en una biblioteca o lenguaje.",
-      "author": "fferegrino"
+  "term": "ootb",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "OOTB stands for \"Out of the Box.\" It refers to software or hardware that can be used immediately, without any additional setup or customization. OOTB solutions can save time and effort, but may not always fit the specific needs of a user or organization."
+    },
+    {
+      "lang": "es",
+      "definition": "OOTB significa \"Listo para usar\". Se refiere a software o hardware que se puede utilizar de inmediato, sin necesidad de configuración o personalización adicional. Las soluciones OOTB pueden ahorrar tiempo y esfuerzo, pero no siempre se ajustan a las necesidades específicas de un usuario u organización."
     }
-  }
+  ]
 }

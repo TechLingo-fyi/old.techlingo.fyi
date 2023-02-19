@@ -1,12 +1,13 @@
 {
-  "id": "poc",
   "term": "POC",
-  "text": "an acronym for \"proof of concept\", used to refer to an experiment that aims to demonstrate that a design, technology or business proposal is feasible",
-  "lang": {
-    "es": {
-      "term": "POC",
-      "text": "un acr\u00f3nimo para \"proof of concept\", usado para referirse a un experimento que busca demostrar que un dise\u00f1o, tecnolog\u00eda o idea es factible",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "an acronym for \"proof of concept\", used to refer to an experiment that aims to demonstrate that a design, technology or business proposal is feasible"
+    },
+    {
+      "lang": "es",
+      "definition": "un acr\u00f3nimo para \"proof of concept\", usado para referirse a un experimento que busca demostrar que un dise\u00f1o, tecnolog\u00eda o idea es factible"
     }
-  }
+  ]
 }

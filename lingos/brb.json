@@ -1,12 +1,13 @@
 {
-  "id": "brb",
   "term": "BRB",
-  "text": "an acronym for \"be right back\", used to say you are leaving a conversation or meeting but will come back soon",
-  "lang": {
-    "es": {
-      "term": "BRB",
-      "text": "un acr\u00f3nimo para \"be right back\", se usa cuando tienes que salir de una junta o conversaci\u00f3n pero regresar\u00e1s pronto",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "BRB stands for \"Be Right Back.\" It is a shorthand way of indicating that the person is temporarily leaving the conversation, but intends to return shortly. This could be due to a variety of reasons, such as attending to personal matters, taking a break, or temporarily losing internet connectivity."
+    },
+    {
+      "lang": "es",
+      "definition": "BRB significa \"Vuelvo enseguida\". Es una forma abreviada de indicar que la persona está abandonando temporalmente la conversación, pero tiene la intención de regresar en breve. Esto podría deberse a una variedad de razones, como atender asuntos personales, tomar un descanso o perder temporalmente la conectividad a internet."
     }
-  }
+  ]
 }

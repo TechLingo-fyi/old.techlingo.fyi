@@ -1,13 +1,13 @@
 {
-  "id": "scaffolding",
   "term": "Scaffolding",
-  "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
-  "lang": {
-    "es": {
-      "term": "Scaffolding",
-      "text": "es un t\u00e9rmino usado para referirse al c\u00f3digo inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\".",
-      "author": "fferegrino",
-      "tags": ["web"]
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool."
+    },
+    {
+      "lang": "es",
+      "definition": "es un t\u00e9rmino usado para referirse al c\u00f3digo inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\"."
     }
-  }
+  ]
 }

@@ -1,12 +1,13 @@
 {
-  "id": "backlog",
-  "term": "backlog",
-  "text": "when working with the agile methodology, we use the word \"backlog\" to refer to the list of pending work, this list is ideally ordered by priority",
-  "lang": {
-    "es": {
-      "term": "backlog",
-      "text": "en la metodolog\u00eda \u00e1gil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad",
-      "author": "fferegrino"
+  "term": "Backlog",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "A backlog is a list of tasks, issues, or features that need to be completed or addressed. It is commonly used in project management to track work that has not yet been started or finished. The backlog helps prioritize tasks and ensure that important work is not overlooked."
+    },
+    {
+      "lang": "es",
+      "definition": "Un backlog es una lista de tareas, problemas o características que deben completarse o abordarse. Se utiliza comúnmente en la gestión de proyectos para realizar un seguimiento del trabajo que aún no se ha iniciado o finalizado. El backlog ayuda a priorizar las tareas y asegurarse de que no se pasen por alto trabajos importantes."
     }
-  }
+  ]
 }

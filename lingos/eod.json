@@ -1,14 +1,13 @@
 {
-  "id": "eod",
   "term": "EOD",
-  "text": "used to set a deadline to deliver something: \"can you send me this by eod?\"",
-  "acronym": "End Of Day",
-  "lang": {
-    "es": {
-      "term": "EOD",
-      "text": "usado para especificar un tiempo l\u00edmite para entregar algo, ejemplo: \"can you send me this by eod?\"",
-      "author": "fferegrino",
-      "acronym": "End Of Day"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "used to set a deadline to deliver something: \"can you send me this by eod?\""
+    },
+    {
+      "lang": "es",
+      "definition": "usado para especificar un tiempo l\u00edmite para entregar algo, ejemplo: \"can you send me this by eod?\""
     }
-  }
+  ]
 }

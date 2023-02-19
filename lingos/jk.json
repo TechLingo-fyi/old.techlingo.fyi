@@ -1,12 +1,13 @@
 {
-  "id": "jk",
   "term": "jk",
-  "text": "An acronym for \"just kidding\", used in written form to imply that something you said was a joke and not to be taken seriously",
-  "lang": {
-    "es": {
-      "term": "jk",
-      "text": "es un acr\u00f3nimo para \"estoy bromeando\" en espa\u00f1ol, usado en un chat para decir que lo que acabas de decir no es en serio",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "An acronym for \"just kidding\", used in written form to imply that something you said was a joke and not to be taken seriously"
+    },
+    {
+      "lang": "es",
+      "definition": "es un acr\u00f3nimo para \"estoy bromeando\" en espa\u00f1ol, usado en un chat para decir que lo que acabas de decir no es en serio"
     }
-  }
+  ]
 }

@@ -1,12 +1,29 @@
 {
-  "id": "a11y",
   "term": "a11y",
-  "text": "It is a numeronym that means accessibility, refers to the ease of use of software, regardless of disability type or severity of impairment of the user",
-  "lang": {
-    "es": {
-      "term": "l10n",
-      "text": "Es un numer\u00f3nimo que significa accesibilidad, se refiere a la facilidad de uso de un sistema, sin importar las capacidades t\u00e9cnicas, f\u00edsicas o cognitivas de sus usuarios",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "\"a11y\" is a shorthand term for \"accessibility\", referring to the design and development of digital content and software that can be easily accessed and used by people with disabilities or impairments."
+    },
+    {
+      "lang": "es",
+      "definition": "\"a11y\" es un término abreviado para \"accesibilidad\", que se refiere al diseño y desarrollo de contenido y software digital que se puede acceder y usar fácilmente por personas con discapacidades o impedimentos."
+    },
+    {
+      "lang": "ja",
+      "definition": "「a11y」は「アクセシビリティ」の省略形で、障害のある人や障害のある人が簡単にアクセスして使用できるデジタル コンテンツとソフトウェアの設計と開発を指します。"
+    },
+    {
+      "lang": "it",
+      "definition": "\"a11y\" è un termine abbreviato per \"accessibilità\", riferito alla progettazione e allo sviluppo di contenuti e software digitali che possono essere facilmente accessibili e utilizzati da persone con disabilità o menomazioni."
+    },
+    {
+      "lang": "ar",
+      "definition": "\"a11y\" هو مصطلح مختصر لـ \"إمكانية الوصول\" ، في إشارة إلى تصميم وتطوير المحتوى الرقمي والبرمجيات التي يمكن الوصول إليها بسهولة واستخدامها من قبل الأشخاص ذوي الإعاقة أو الإعاقات."
+    },
+    {
+      "lang": "ua",
+      "definition": "«a11y» — це скорочений термін для «доступності», що стосується проектування та розробки цифрового вмісту та програмного забезпечення, до якого можуть легко отримати доступ і використовувати люди з обмеженими можливостями чи вадами."
     }
-  }
+  ]
 }

@@ -1,12 +1,13 @@
 {
-  "id": "lossy",
   "term": "Lossy",
-  "text": "this is a word used to describe compression algorithms where information is discarded in order to reduce the size of said information",
-  "lang": {
-    "es": {
-      "term": "Lossy",
-      "text": "esta palabra es usada para describir algoritmos de compresi\u00f3n que descartan partes de esta con el fin de comprimirla",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Lossy refers to data compression methods that permanently remove certain data from a file in order to reduce its size. This can result in a lower quality output, such as in image or audio files, compared to the original data."
+    },
+    {
+      "lang": "es",
+      "definition": "Lossy se refiere a métodos de compresión de datos que eliminan permanentemente ciertos datos de un archivo para reducir su tamaño. Esto puede resultar en una salida de menor calidad, como en archivos de imagen o audio, en comparación con los datos originales."
     }
-  }
+  ]
 }

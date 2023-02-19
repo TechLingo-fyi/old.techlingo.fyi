@@ -1,12 +1,13 @@
 {
-  "id": "batteries-included",
-  "term": "Batteries Included",
-  "text": "is a common slang to state that a product or application comes includes everything you need to use it from the get go",
-  "lang": {
-    "es": {
-      "term": "Batteries Included",
-      "text": "es una frase usada para indicar que un producto o aplicaci\u00f3n incluye todo para ser usado plenamente sin instalarle nada m\u00e1s",
-      "author": "fferegrino"
+  "term": "Batteries included",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "\"Batteries included\" is a phrase used to describe software or programming languages that come bundled with a wide variety of useful tools, libraries, and modules. This means that users do not need to install additional components to perform common tasks, which can make it easier to get started with the software or language. Python is an example of a programming language that is often described as \"batteries included.\""
+    },
+    {
+      "lang": "es",
+      "definition": "\"Baterías incluidas\" es una frase que se utiliza para describir el software o lenguajes de programación que vienen con una amplia variedad de herramientas, bibliotecas y módulos útiles. Esto significa que los usuarios no necesitan instalar componentes adicionales para realizar tareas comunes, lo que puede facilitar el inicio del software o del lenguaje de programación. Python es un ejemplo de lenguaje de programación que a menudo se describe como \"baterías incluidas\"."
     }
-  }
+  ]
 }

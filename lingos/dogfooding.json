@@ -1,12 +1,13 @@
 {
-  "id": "dogfooding",
   "term": "Dogfooding",
-  "text": "a term used when a company uses the same products they produce; Microsoft employees using Word is an example of \"dogfooding\"",
-  "lang": {
-    "es": {
-      "term": "Dogfooding",
-      "text": "es un t\u00e9rmino que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\"",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "a term used when a company uses the same products they produce; Microsoft employees using Word is an example of \"dogfooding\""
+    },
+    {
+      "lang": "es",
+      "definition": "es un t\u00e9rmino que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\""
     }
-  }
+  ]
 }

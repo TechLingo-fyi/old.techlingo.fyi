@@ -1,12 +1,13 @@
 {
-  "id": "build-vs-buy",
   "term": "Build vs buy",
-  "text": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else.",
-  "lang": {
-    "es": {
-      "term": "Build vs buy",
-      "text": "es un dilema com\u00fan en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else."
+    },
+    {
+      "lang": "es",
+      "definition": "es un dilema com\u00fan en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta."
     }
-  }
+  ]
 }

@@ -1,13 +1,13 @@
 {
-  "id": "afk",
   "term": "AFK",
-  "text": "used to tell people that you will not be available for a period of time.",
-  "acronym": "Away From Keyboard",
-  "lang": {
-    "es": {
-      "term": "AFK",
-      "text": "una abreviaci\u00f3n para \"away from keyboard\" (\"lejos del teclado\"), usada para hacerle saber a la gente que no vas a estar disponible durante un tiempo.",
-      "author": "fferegrino"
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "AFK stands for \"Away From Keyboard.\" It is used to indicate that a person is temporarily unavailable and not actively monitoring their computer or device. This may be due to a variety of reasons, such as taking a break, attending to personal matters, or stepping away from their device."
+    },
+    {
+      "lang": "es",
+      "definition": "AFK significa \"Lejos del teclado\". Se utiliza para indicar que una persona no está disponible temporalmente y no está monitoreando activamente su computadora o dispositivo. Esto puede ser debido a una variedad de razones, como tomar un descanso, atender asuntos personales o alejarse de su dispositivo."
     }
-  }
+  ]
 }
