@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import LingoDefinitions from "../../components/LingoDefinitions.tsx";
 import slugify from "slugify";
+import LingoDetail from "../../components/LingoDetail";
 
 export async function getStaticPaths() {
   const jsons = await Astro.glob("../../../lingos/*.json");
@@ -36,16 +36,5 @@ const { data } = Astro.props;
 ---
 
 <Layout title={data.term}>
-  <div class="flex items-start mt-9 justify-center h-screen">
-    <div
-      class="max-w-3xl min-w-3xl xl:min-w-max p-8 bg-white border border-gray-200 rounded-lg shadow dark:bg-dark1 dark:border-gray-700"
-    >
-      <h3
-        class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white"
-      >
-        {data.term}
-      </h3>
-      <LingoDefinitions data={data} language={language} />
-    </div>
-  </div>
+  <LingoDetail data={data} language={language} />
 </Layout>
