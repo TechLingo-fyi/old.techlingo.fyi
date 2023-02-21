@@ -1,3 +1,4 @@
+import CopyButton from "./CopyButton";
 import LingoDefinitions from "./LingoDefinitions";
 
 const outerDivStyle = [
@@ -35,7 +36,10 @@ const LingoDetail = ({ data, language }: { data: any; language: string }) => {
   return (
     <div className={outerDivStyle.join(" ")}>
       <div className={cardStyle.join(" ")}>
-        <h3 className={termStyle.join(" ")}>{data.term}</h3>
+        <h3 className={termStyle.join(" ")}>
+          {data.term} <CopyButton term={data.term} lang={language} />
+        </h3>
+
         <LingoDefinitions data={data} language={language} />
       </div>
     </div>

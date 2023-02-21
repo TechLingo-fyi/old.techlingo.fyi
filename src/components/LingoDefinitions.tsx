@@ -41,7 +41,6 @@ const LanguageSpecificDefinition = ({
         className={dtClasses.join(" ")}
       >
         {LangMap.get(language)?.languageName}
-        {/* <CopyButton term={term} lang={langKey} /> */}
       </dt>
       <dd className={definitionClasses.join(" ")}>{definition}</dd>
     </div>
@@ -106,7 +105,7 @@ const LingoDefinitions = ({
       const identifier = slugify(data.term, { lower: true });
       const link = `/${identifier}/${lang}`;
       return (
-        <a className={linkCss.join(" ")} href={link}>
+        <a key={lang} className={linkCss.join(" ")} href={link}>
           {leng?.languageName}
         </a>
       );

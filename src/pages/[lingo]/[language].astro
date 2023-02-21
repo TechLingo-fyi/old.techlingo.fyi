@@ -36,5 +36,5 @@ const { data } = Astro.props;
 ---
 
 <Layout title={data.term}>
-  <LingoDetail data={data} language={language} />
+  <LingoDetail client:only data={data} language={language} />
 </Layout>

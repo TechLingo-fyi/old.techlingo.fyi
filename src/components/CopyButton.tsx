@@ -3,18 +3,17 @@ import toast from "react-hot-toast";
 const CopyButton = ({
   term,
   lang,
-  size = 3,
+  size = 6,
 }: {
   term: string;
   lang: string;
   size?: number;
 }) => {
   const copyToClipBoard = async (event: any) => {
-    console.log(event);
-
     const { term, lang } = event.currentTarget.dataset;
     const text =
       "https://techlingo.fyi/" + term + (lang !== undefined ? "#" + lang : "");
+      console.log(text)
     try {
       await navigator.clipboard.writeText(text);
       toast("Link copied to clipboard!");
@@ -23,7 +22,18 @@ const CopyButton = ({
     }
   };
 
-  const svgClasses = `"w-${size} h-${size} p-0 stroke-current`;
+  const svgClasses = `w-${size} h-${size}`;
+
+  const buttonClasses = [
+    // "bg-white",
+    // "dark:bg-dark3",
+    "rounded-full",
+    "p-1",
+
+    "shadow-md",
+    "hover:shadow-lg",
+    "focus:outline-none",
+  ];
 
   return (
     <button
@@ -31,7 +41,7 @@ const CopyButton = ({
       data-term={term}
       data-lang={lang}
       onClick={copyToClipBoard}
-      className="text-xs text-gray-400 dark:text-gray-500 font-bold py-1 px-2 ml-2 rounded-full inline-flex items-center"
+      className={buttonClasses.join(" ")}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
