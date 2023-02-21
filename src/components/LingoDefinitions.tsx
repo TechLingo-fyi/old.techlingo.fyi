@@ -1,4 +1,3 @@
-import { Toaster } from "react-hot-toast";
 import LangMap from "../data/Languages";
 
 import slugify from "slugify";
@@ -14,7 +13,6 @@ const LanguageSpecificDefinition = ({
 }) => {
   let textSize = "text-md";
   let textColor = "text-gray-400";
-  let hoverTextColor = "text-gray-500";
 
   // If the current page language is the
   // same as the definition language
@@ -23,12 +21,7 @@ const LanguageSpecificDefinition = ({
     textColor = "text-gray-900 dark:text-gray-200";
   }
 
-  const definitionClasses = [
-    textSize,
-    textColor,
-    "group-hover:text-gray-900",
-    "group-hover:dark:text-gray-400",
-  ];
+  const definitionClasses = [textSize, textColor];
 
   const dtClasses = [
     "mb-1",
@@ -39,9 +32,7 @@ const LanguageSpecificDefinition = ({
     "group-hover:dark:text-gray-400",
   ];
 
-  if (currentLanguage) {
-    dtClasses.push("collapse hidden");
-  }
+  dtClasses.push("collapse hidden");
 
   return (
     <div key={language} className="flex group flex-col pb-3 pt-3">
@@ -99,14 +90,24 @@ const LingoDefinitions = ({
     );
   }
 
+  const linkCss = [
+    "text-gray-100",
+    "bg-gray-400",
+    "dark:bg-dark3",
+    "rounded",
+    "p-2",
+    "text-center",
+  ];
+
   const lonks = Array.from(definitionsMap.keys())
     .sort()
     .map((lang) => {
+      const leng = LangMap.get(lang);
       const identifier = slugify(data.term, { lower: true });
       const link = `/${identifier}/${lang}`;
       return (
-        <a href={link}>
-          <div className="text-center">{lang}</div>
+        <a className={linkCss.join(" ")} href={link}>
+          {leng?.languageName}
         </a>
       );
     });
@@ -116,7 +117,7 @@ const LingoDefinitions = ({
       <dl className="text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
         {definitions}
       </dl>
-      <div className="mt-2 grid grid-flow-col divide-x">{lonks}</div>
+      <div className="mt-2 grid grid-flow-col space-x-2">{lonks}</div>
     </div>
   );
 };
