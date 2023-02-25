@@ -7,7 +7,8 @@
     },
     {
       "lang": "es",
-      "definition": "es una herramienta de consola que podemos usar para descargar informaci\u00f3n desde servidores web usando los protocolos FTP, HTTP o HTTPS"
+      "definition": "es una herramienta de consola que podemos usar para descargar información desde servidores web usando los protocolos FTP, HTTP o HTTPS"
     }
-  ]
+  ],
+  "slug": "wget"
 }

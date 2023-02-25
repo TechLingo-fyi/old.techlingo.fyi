@@ -7,7 +7,8 @@
     },
     {
       "lang": "es",
-      "definition": "es una biblioteca y una herramienta de consola para transferir informaci\u00f3n usando diversos protocolos de red"
+      "definition": "es una biblioteca y una herramienta de consola para transferir información usando diversos protocolos de red"
     }
-  ]
+  ],
+  "slug": "curl"
 }

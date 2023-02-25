@@ -3,11 +3,12 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "OOTO is an acronym that means \u201cOut of the Office.\u201d"
+      "definition": "OOTO is an acronym that means “Out of the Office.”"
     },
     {
       "lang": "es",
-      "definition": "OOTO es un acr\u00f3nimo que significa \"Fuera de la Oficina\"."
+      "definition": "OOTO es un acrónimo que significa \"Fuera de la Oficina\"."
     }
-  ]
+  ],
+  "slug": "ooto-ooo"
 }

@@ -9,5 +9,6 @@
       "lang": "es",
       "definition": "Lossy se refiere a métodos de compresión de datos que eliminan permanentemente ciertos datos de un archivo para reducir su tamaño. Esto puede resultar en una salida de menor calidad, como en archivos de imagen o audio, en comparación con los datos originales."
     }
-  ]
+  ],
+  "slug": "lossy"
 }
