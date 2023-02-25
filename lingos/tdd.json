@@ -1,0 +1,14 @@
+{
+  "term": "TDD",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Test-Driven Development. A software development approach where tests are written before the code is developed."
+    },
+    {
+      "lang": "es",
+      "definition": "Desarrollo Dirigido por Pruebas. Un enfoque de desarrollo de software donde las pruebas se escriben antes de que se desarrolle el código."
+    }
+  ],
+  "slug": "tdd"
+}

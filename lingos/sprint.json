@@ -3,11 +3,12 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "A period of time (usually one or two weeks) in which a team works to complete a set of tasks, typically in the context of agile software development."
+      "definition": "A period of time during which a specific set of tasks must be completed in agile software development."
     },
     {
       "lang": "es",
-      "definition": "Un período de tiempo (generalmente de una o dos semanas) en el que un equipo trabaja para completar un conjunto de tareas, típicamente en el contexto del desarrollo de software ágil."
+      "definition": "Un período de tiempo durante el cual se deben completar un conjunto específico de tareas en el desarrollo ágil de software."
     }
-  ]
+  ],
+  "slug": "sprint"
 }

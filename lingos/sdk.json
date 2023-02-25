@@ -1,0 +1,14 @@
+{
+  "term": "SDK",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Software Development Kit. A set of tools and resources for developing software applications for a specific platform or framework."
+    },
+    {
+      "lang": "es",
+      "definition": "Kit de Desarrollo de Software. Un conjunto de herramientas y recursos para desarrollar aplicaciones de software para una plataforma o framework específicos."
+    }
+  ],
+  "slug": "sdk"
+}

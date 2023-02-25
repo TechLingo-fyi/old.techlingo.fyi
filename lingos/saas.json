@@ -1,0 +1,14 @@
+{
+  "term": "SaaS",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Software as a Service. A cloud computing model where users rent software applications and access them over the internet."
+    },
+    {
+      "lang": "es",
+      "definition": "Software como Servicio. Un modelo de computación en la nube donde los usuarios alquilan aplicaciones de software y acceden a ellas a través de internet."
+    }
+  ],
+  "slug": "saas"
+}

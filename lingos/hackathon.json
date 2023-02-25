@@ -1,0 +1,14 @@
+{
+  "term": "Hackathon",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "An event where programmers come together to work on collaborative software projects."
+    },
+    {
+      "lang": "es",
+      "definition": "Un evento donde los programadores se reúnen para trabajar en proyectos de software colaborativos."
+    }
+  ],
+  "slug": "hackathon"
+}

@@ -1,0 +1,14 @@
+{
+  "term": "DSL",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Domain-Specific Language. A programming language designed for a specific application domain or problem set."
+    },
+    {
+      "lang": "es",
+      "definition": "Lenguaje Específico del Dominio. Un lenguaje de programación diseñado para un dominio de aplicación o conjunto de problemas específico."
+    }
+  ],
+  "slug": "dsl"
+}

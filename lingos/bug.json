@@ -1,0 +1,14 @@
+{
+  "term": "Bug",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "An error or defect in software code."
+    },
+    {
+      "lang": "es",
+      "definition": "Un error o defecto en el código de software."
+    }
+  ],
+  "slug": "bug"
+}

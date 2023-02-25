@@ -1,0 +1,14 @@
+{
+  "term": "Legacy code",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Outdated code that is difficult to maintain or update."
+    },
+    {
+      "lang": "es",
+      "definition": "Código obsoleto que es difícil de mantener o actualizar."
+    }
+  ],
+  "slug": "legacy-code"
+}

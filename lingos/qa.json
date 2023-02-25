@@ -1,0 +1,14 @@
+{
+  "term": "QA",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Quality Assurance. A process of ensuring that software products meet the required quality standards."
+    },
+    {
+      "lang": "es",
+      "definition": "Aseguramiento de la Calidad. Un proceso para garantizar que los productos de software cumplan con los estándares de calidad requeridos."
+    }
+  ],
+  "slug": "qa"
+}

@@ -1,0 +1,14 @@
+{
+  "term": "API",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Application Programming Interface. A set of protocols and tools for building software applications."
+    },
+    {
+      "lang": "es",
+      "definition": "Interface de Programación de Aplicaciones. Un conjunto de protocolos y herramientas para construir aplicaciones de software."
+    }
+  ],
+  "slug": "api"
+}

@@ -1,0 +1,14 @@
+{
+  "term": "MVP",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Minimum Viable Product. A version of a product with just enough features to satisfy early customers and provide feedback for future development."
+    },
+    {
+      "lang": "es",
+      "definition": "Producto Mínimo Viable. Una versión de un producto con suficientes características para satisfacer a los primeros clientes y proporcionar retroalimentación para el desarrollo futuro."
+    }
+  ],
+  "slug": "mvp"
+}

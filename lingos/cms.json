@@ -1,0 +1,14 @@
+{
+  "term": "CMS",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Content Management System. A software application that allows users to create, manage, and publish digital content."
+    },
+    {
+      "lang": "es",
+      "definition": "Sistema de Gestión de Contenidos. Una aplicación de software que permite a los usuarios crear, administrar y publicar contenido digital."
+    }
+  ],
+  "slug": "cms"
+}

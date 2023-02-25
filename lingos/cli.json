@@ -1,0 +1,14 @@
+{
+  "term": "CLI",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Command Line Interface. A way of interacting with a computer program using text commands."
+    },
+    {
+      "lang": "es",
+      "definition": "Interfaz de Línea de Comandos. Una forma de interactuar con un programa informático mediante comandos de texto."
+    }
+  ],
+  "slug": "cli"
+}

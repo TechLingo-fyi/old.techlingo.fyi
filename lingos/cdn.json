@@ -1,0 +1,14 @@
+{
+  "term": "CDN",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Content Delivery Network. A network of distributed servers that delivers web content to users based on their geographic location."
+    },
+    {
+      "lang": "es",
+      "definition": "Red de Distribución de Contenido. Una red de servidores distribuidos que entrega contenido web a los usuarios según su ubicación geográfica."
+    }
+  ],
+  "slug": "cdn"
+}

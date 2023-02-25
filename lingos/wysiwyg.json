@@ -1,0 +1,14 @@
+{
+  "term": "WYSIWYG",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "What You See Is What You Get. A graphical user interface that shows the final output as it will appear in the final product."
+    },
+    {
+      "lang": "es",
+      "definition": "What You See Is What You Get. Una interfaz gráfica de usuario que muestra la salida final tal como aparecerá en el producto final."
+    }
+  ],
+  "slug": "wysiwyg"
+}

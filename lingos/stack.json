@@ -1,0 +1,14 @@
+{
+  "term": "Stack",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "A set of technologies and tools used to develop a software application."
+    },
+    {
+      "lang": "es",
+      "definition": "Conjunto de tecnologías y herramientas utilizadas para desarrollar una aplicación de software."
+    }
+  ],
+  "slug": "stack"
+}

@@ -1,0 +1,14 @@
+{
+  "term": "JVM",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Java Virtual Machine. A virtual machine that enables Java code to run on different platforms without modification."
+    },
+    {
+      "lang": "es",
+      "definition": "Máquina Virtual de Java. Una máquina virtual que permite que el código Java se ejecute en diferentes plataformas sin modificaciones."
+    }
+  ],
+  "slug": "jvm"
+}

@@ -1,0 +1,14 @@
+{
+  "term": "IaaS",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Infrastructure as a Service. A cloud computing service model where users rent virtual machines, storage, and networking resources from a provider."
+    },
+    {
+      "lang": "es",
+      "definition": "Infraestructura como Servicio. Un modelo de servicio de computación en la nube donde los usuarios alquilan máquinas virtuales, almacenamiento y recursos de redes a un proveedor."
+    }
+  ],
+  "slug": "iaas"
+}

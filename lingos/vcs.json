@@ -1,0 +1,14 @@
+{
+  "term": "VCS",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Version Control System. A software tool used to manage changes to source code over time."
+    },
+    {
+      "lang": "es",
+      "definition": "Sistema de Control de Versiones. Una herramienta de software utilizada para gestionar cambios en el código fuente a lo largo del tiempo."
+    }
+  ],
+  "slug": "vcs"
+}
