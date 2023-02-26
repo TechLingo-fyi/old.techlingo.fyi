@@ -1,84 +1,48 @@
-<!-- navbar goes here -->
-<nav class="dark:bg-dark3">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="flex justify-between">
-      <div class="flex space-x-4">
-        <!-- logo -->
-        <div>
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-dark3">
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <a
+      href="/"
+      class="flex items-center text-gray-900 dark:text-white"
+    >
+      <svg
+        class="h-6 w-6 mr-1 fill-gray-900 dark:fill-white"
+        viewBox="0 0 230 230"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <title>fyi</title>
+        <g id=".fyi" stroke="none" stroke-width="1" fill-rule="evenodd">
+          <path
+            d="M89.1,105 L111.5,127.4 L103.2,147.4 L75,119 L42,152 L28,137.8 L60.8,105 L52,96.2 C46.7,90.9 42,83.2 39,75 L61,75 C62.5,77.8 64.3,80.3 66.1,82 L75,91 L83.8,82.2 C89.8,76 95,63.4 95,55 L15,55 L15,35 L65,35 L65,15 L85,15 L85,35 L135,35 L135,55 L115,55 C115,68.7 107.6,86.5 98,96.2 L89,105 L89.1,105 Z M127.5,185 L115,215 L95,215 L145,95 L165,95 L215,215 L195,215 L182.5,185 L127.5,185 Z M135.8,165 L174.2,165 L155,119 L135.8,165 Z"
+            id="Shape"
+            fill-rule="nonzero"></path>
+        </g>
+      </svg>
+      <span class="font-bold">TechLingo.fyi</span>
+    </a>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul
+        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-dark3 dark:border-gray-700"
+      >
+        <li>
           <a
-            href="/"
-            class="flex items-center py-5 px-2 text-gray-900 dark:text-white"
+            href="https://github.com/fferegrino/techlingo.fyi"
+            target="_blank"
+            class="flex items-center text-gray-900 dark:text-white"
           >
+            <span class="font-bold">View on GitHub</span>
             <svg
-              class="h-6 w-6 mr-1 fill-gray-900 dark:fill-white"
-              viewBox="0 0 230 230"
-              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="h-6 w-6 ml-2 fill-gray-900 dark:fill-white"
+              viewBox="0 0 24 24"
+              ><path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              ></path></svg
             >
-              <title>fyi</title>
-              <g id=".fyi" stroke="none" stroke-width="1" fill-rule="evenodd">
-                <path
-                  d="M89.1,105 L111.5,127.4 L103.2,147.4 L75,119 L42,152 L28,137.8 L60.8,105 L52,96.2 C46.7,90.9 42,83.2 39,75 L61,75 C62.5,77.8 64.3,80.3 66.1,82 L75,91 L83.8,82.2 C89.8,76 95,63.4 95,55 L15,55 L15,35 L65,35 L65,15 L85,15 L85,35 L135,35 L135,55 L115,55 C115,68.7 107.6,86.5 98,96.2 L89,105 L89.1,105 Z M127.5,185 L115,215 L95,215 L145,95 L165,95 L215,215 L195,215 L182.5,185 L127.5,185 Z M135.8,165 L174.2,165 L155,119 L135.8,165 Z"
-                  id="Shape"
-                  fill-rule="nonzero"></path>
-              </g>
-            </svg>
-            <span class="font-bold">TechLingo.fyi</span>
           </a>
-        </div>
-
-        <!-- primary nav -->
-        <!-- 
-        <div class="hidden md:flex items-center space-x-1">
-          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
-            >Features</a
-          >
-          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
-            >Pricing</a
-          >
-        </div>
-         -->
-      </div>
-
-      <!-- secondary nav -->
-      <!-- 
-      <div class="hidden md:flex items-center space-x-1">
-        <a href="" class="py-5 px-3">Login</a>
-        <a
-          href=""
-          class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
-          >Signup</a
-        >
-      </div>
-         -->
-
-      <!-- mobile button goes here -->
-      <div class="md:hidden flex items-center">
-        <button title="Mobile menu button" class="mobile-menu-button">
-          <svg
-            class="w-6 h-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
-      </div>
+        </li>
+      </ul>
     </div>
-  </div>
-
-  <!-- mobile menu -->
-  <div class="mobile-menu hidden md:hidden">
-    <!--
-    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
-    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
-     -->
   </div>
 </nav>
