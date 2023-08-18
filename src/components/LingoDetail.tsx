@@ -1,19 +1,12 @@
 import CopyButton from "./CopyButton";
 import LingoDefinitions from "./LingoDefinitions";
 
-const outerDivStyle = [
-  "flex",
-  "items-start",
-  "mt-9",
-  "justify-center",
-  "h-screen",
-];
-
 const cardStyle = [
   "max-w-3xl",
   "min-w-3xl",
   "xl:min-w-3xl",
   "p-8",
+  "pb-5",
   "bg-white",
   "border",
   "border-gray-200",
@@ -32,15 +25,31 @@ const termStyle = [
   "dark:text-white",
 ];
 
-const LingoDetail = ({ data, language }: { data: any; language: string }) => {
-  return (
-    <div className={outerDivStyle.join(" ")}>
-      <div className={cardStyle.join(" ")}>
-        <h3 className={termStyle.join(" ")}>
-          {data.term} <CopyButton term={data.term} lang={language} />
-        </h3>
+const bottomLinkStyle = [
+  "hover:underline",
+  "mx-2",
+  "cursor-pointer",
+  "font-bold",
+  "text-gray-500",
+  "dark:text-gray-500",
+];
 
-        <LingoDefinitions data={data} language={language} />
+const LingoDetail = ({
+  data, language, slug,
+  shareableText
+}: { data: any, language: string, slug: string, shareableText:string }) => {
+  return (
+    <div className={cardStyle.join(" ")}>
+      <h3 className={termStyle.join(" ")}>
+        {data.term}
+      </h3>
+
+      <LingoDefinitions data={data} language={language} />
+
+      <div className="flex justify-end mt-2 text-xs">
+        <CopyButton className={bottomLinkStyle.join(" ")} slug={slug} lang={language} />
+        <a className={bottomLinkStyle.join(" ")} target="_blank" href={`https://twitter.com/intent/tweet?text=${shareableText}`}>Share on Twitter</a>
+        <a className={bottomLinkStyle.join(" ")}  href={`https://github.com/fferegrino/techlingo.fyi/blob/main/lingos/${slug}.json`} >Suggest changes</a>
       </div>
     </div>
   );

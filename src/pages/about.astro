@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const cardStyle = [
+  "max-w-3xl",
+  "min-w-3xl",
+  
+]
+
+const headerStyle = [
+  "text-4xl",
+  "text-gray-900",
+  "dark:text-white"
+]
+
+const paragraphStyle = [
+  "text-2xl",
+  "text-gray-900",
+  "dark:text-white",
+  "leading-10",
+  "mt-5"
+]
+
+const paragraphs = [
+  "TechLingo.fyi is a free resource for people who want to learn about the jargon and acronyms used in the tech industry.",
+  "I created TechLingo.fyi because I realised the tech industry can be hostile to newcomers. I wanted to create a resource that would help people understand the lingo and acronyms they come across in the field of software development and data science.",
+  "The site is built using Astro, a static site generator that uses React and Markdown. It is completely open source and you can find the code on GitHub.",
+]
+
+---
+
+<Layout title="TechLingo.fyi" description="TechLingo.fyi is a free resource for people who want to learn about the jargon and acronyms used in the tech industry." path="about">
+  <div class={cardStyle.join(" ")}>
+    <h1 class={headerStyle.join(" ")}>About <span class="">TechLingo.fyi</span></h1>
+    {
+      paragraphs.map((paragraph) => {
+        return <p class={paragraphStyle.join(" ")}>{paragraph}</p>
+      })
+    }
+  </div>  
+</Layout>

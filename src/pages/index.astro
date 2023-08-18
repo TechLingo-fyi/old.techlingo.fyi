@@ -5,8 +5,6 @@ import LingoCards from "../components/Lingos";
 const jsons = await Astro.glob("../../lingos/*.json");
 ---
 
-<Layout title="TechLingo.fyi">
-  <main>
+<Layout title="TechLingo.fyi" description="TechLingo.fyi is a free resource for people who want to learn about the jargon and acronyms used in the tech industry." path="">
     <LingoCards lingos={jsons} />
-  </main>
 </Layout>

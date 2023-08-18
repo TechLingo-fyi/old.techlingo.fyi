@@ -11,42 +11,41 @@ interface Lingos {
 
 const cardStyle = [
   "break-inside-avoid",
-  "p-8",
-  "mb-6",
-  "max-w-sm",
   "bg-white",
-  "border",
   "border-gray-200",
-  "rounded-lg",
-  "shadow",
-  "hover:bg-gray-100",
-  "dark:bg-dark1",
+  "dark:bg-dark0",
   "dark:border-gray-700",
-  "dark:hover:bg-gray-700",
-];
-const headLetterStyle = [
-  "text-2xl",
-  "font-bold",
-  "text-gray-900",
-  "dark:text-textLight0",
 ];
 
 const linkStyle = [
-  "text-gray-900",
+  "p-3",
+  "text-xl",
   "dark:text-textLight0",
-  "hover:text-gray-900",
+  "hover:bg-gray-200",
   "dark:hover:text-textLight0",
+  "dark:hover:bg-gray-700",
+  "[&:last-child]:border-b [&:last-child]:border-gray-200",
+  "[&:not(:last-child)]:border-b [&:not(:last-child)]:border-gray-900",
 ];
+
+const headerLetterStyle = linkStyle.concat([
+  "font-bold",
+  "text-gray-900",
+  "overflow-hidden",
+  "dark:text-textLight0",
+]);
 
 const Card = ({ lingos, letter }: { lingos: Lingo[]; letter: string }) => (
   <div className={cardStyle.join(" ")}>
-    <h2 className={headLetterStyle.join(" ")}>{letter}</h2>
+    <div className={headerLetterStyle.join(" ")}>{letter}</div>
     {lingos.map((lingo) => {
       const identifier = slugify(lingo.term, { lower: true });
       return (
-        <p className={linkStyle.join(" ")}>
-          <a href={"/" + identifier}>{lingo.term}</a>
-        </p>
+        <a  href={"/" + identifier}>
+        <div className={linkStyle.join(" ")}>
+          {lingo.term}
+        </div>
+        </a>
       );
     })}
   </div>
@@ -63,36 +62,24 @@ const Lingos = ({ lingos }: Lingos) => {
     return acc;
   }, {} as Record<string, Lingo[]>);
 
-  const mainCardContainerStyle = [
-    "relative",
-    "flex",
-    "min-h-screen",
-    "flex-col",
-    "justify-center",
-    "py-6",
-    "sm:py-12",
-  ];
-
   const columnStyle = [
     "columns-1",
     "2xl:columns-4",
     "xl:columns-3",
-    "gap-10",
-    "",
+    "gap-0",
     "box-border",
+    "w-2/3",
     "mx-auto",
     "before:box-inherit",
     "after:box-inherit",
   ];
 
   return (
-    <div className={mainCardContainerStyle.join(" ")}>
       <div className={columnStyle.join(" ")}>
         {Object.entries(groupedLingos).map(([letter, lingos]) => (
-          <Card letter={letter} lingos={lingos} />
+          <Card key={letter} letter={letter} lingos={lingos} />
         ))}
       </div>
-    </div>
   );
 };
 

@@ -15,7 +15,8 @@ export async function getStaticPaths() {
     return languages.map((language) => {
       return {
         params: {
-          lingo: slugify(json["term"], { lower: true }),
+          lingo: slugify(json["term"], { lower: true })
+          // language: ""
         },
         props: {
           data: json,
@@ -32,15 +33,15 @@ export async function getStaticPaths() {
 const { lingo } = Astro.params;
 const { data } = Astro.props;
 
-const containerStyle = [
-  "flex",
-  "items-start",
-  "mt-9",
-  "justify-center",
-  "h-screen",
-];
+const dscription = data.definitions.filter((definition) => {
+  return definition.lang === "en";
+})[0].definition;
+
+const path = `${lingo}`;
+
+const shareableText = `${dscription} https://techlingo.fyi/${path}`
 ---
 
-<Layout title={data.term}>
-  <LingoDetail client:only data={data} language="en" />
+<Layout title={data.term} description={dscription} path={path}>
+  <LingoDetail client:only  shareableText={shareableText}  data={data} language="en" slug={lingo} />
 </Layout>

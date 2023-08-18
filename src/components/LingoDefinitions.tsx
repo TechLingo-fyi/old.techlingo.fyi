@@ -78,7 +78,7 @@ const LingoDefinitions = ({
 
   if (language !== "en") {
     const englishDefinition = definitionsMap.get("en") || "";
-    definitionsMap.delete("en");
+    // definitionsMap.delete("en");
     definitions.push(
       <LanguageSpecificDefinition
         key={"en"}
@@ -98,7 +98,7 @@ const LingoDefinitions = ({
     "text-center",
   ];
 
-  const lonks = Array.from(definitionsMap.keys())
+  const links = Array.from(definitionsMap.keys())
     .sort()
     .map((lang) => {
       const leng = LangMap.get(lang);
@@ -116,7 +116,7 @@ const LingoDefinitions = ({
       <dl className="text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
         {definitions}
       </dl>
-      <div className="mt-2 grid grid-flow-col space-x-2">{lonks}</div>
+      <div className="mt-2 grid grid-flow-col space-x-2">{links}</div>
     </div>
   );
 };
