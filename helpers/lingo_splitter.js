@@ -16,11 +16,11 @@ const inputArray = JSON.parse(inputData);
 // Loop through the array and write each object to a separate file
 for (let i = 0; i < inputArray.length; i++) {
   // Modify the object to add a slug property
-  inputArray[i].slug = slugify(inputArray[i].term, {
+  inputArray[i].slug = slugify(inputArray[i].display_name, {
     lower: true,
     strict: true,
   });
-  const fileName = slugify(inputArray[i].term, { lower: true, strict: true });
+  const fileName = slugify(inputArray[i].display_name, { lower: true, strict: true });
   const outputData = JSON.stringify(inputArray[i], null, 2); // Stringify the object with 2 spaces for indentation
   const outputFilename = `lingos/${inputArray[i].slug}.json`; // Create a unique output filename for each object
   fs.writeFileSync(outputFilename, outputData); // Write the data to the output file

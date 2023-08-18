@@ -102,7 +102,7 @@ const LingoDefinitions = ({
     .sort()
     .map((lang) => {
       const leng = LangMap.get(lang);
-      const identifier = slugify(data.term, { lower: true });
+      const identifier = slugify(data.display_name, { lower: true });
       const link = `/${identifier}/${lang}`;
       return (
         <a key={lang} className={linkCss.join(" ")} href={link}>

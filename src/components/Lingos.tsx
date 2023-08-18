@@ -2,7 +2,7 @@ import slugify from "slugify";
 
 interface Lingo {
   id: string;
-  term: string;
+  display_name: string;
 }
 
 interface Lingos {
@@ -39,11 +39,11 @@ const Card = ({ lingos, letter }: { lingos: Lingo[]; letter: string }) => (
   <div className={cardStyle.join(" ")}>
     <div className={headerLetterStyle.join(" ")}>{letter}</div>
     {lingos.map((lingo) => {
-      const identifier = slugify(lingo.term, { lower: true });
+      const identifier = slugify(lingo.display_name, { lower: true });
       return (
         <a  href={"/" + identifier}>
         <div className={linkStyle.join(" ")}>
-          {lingo.term}
+          {lingo.display_name}
         </div>
         </a>
       );
@@ -53,7 +53,7 @@ const Card = ({ lingos, letter }: { lingos: Lingo[]; letter: string }) => (
 const Lingos = ({ lingos }: Lingos) => {
   // Group by first letter of the id property
   const groupedLingos = lingos.reduce((acc, lingo) => {
-    const identifier = slugify(lingo.term, { lower: true });
+    const identifier = slugify(lingo.display_name, { lower: true });
     const firstLetter = identifier[0].toUpperCase();
     if (!acc[firstLetter]) {
       acc[firstLetter] = [];

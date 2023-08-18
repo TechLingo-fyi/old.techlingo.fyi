@@ -20,7 +20,7 @@ for (let i = 0; i < jsonFiles.length; i++) {
   const lingoFile = jsonFiles[i];
   const data = JSON.parse(fs.readFileSync(lingoFile));
   // add a slug property
-  data.slug = slugify(data.term, { lower: true, strict: true });
+  data.slug = slugify(data.display_name, { lower: true, strict: true });
   // write the file
   fs.writeFileSync(lingoFile, JSON.stringify(data, null, 2));
 }

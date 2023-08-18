@@ -15,7 +15,7 @@ To add a new term and its definition it is necessary to add a new file to the `l
 
 ```json
 {
-  "term": "Human frendly name",
+  "display_name": "Human frendly name",
   "definitions": [
     {
       "lang": "en",

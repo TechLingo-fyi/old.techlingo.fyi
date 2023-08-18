@@ -41,7 +41,7 @@ const LingoDetail = ({
   return (
     <div className={cardStyle.join(" ")}>
       <h3 className={termStyle.join(" ")}>
-        {data.term}
+        {data.display_name}
       </h3>
 
       <LingoDefinitions data={data} language={language} />
