@@ -1,53 +1,33 @@
-# Astro Starter Kit: Basics
+TechLingo.fyi
+=============
 
+TechLingo.fyi is a free resource for those wanting to break into the tech industry.
+
+Even now with all my years of experience, I still come across acronyms and words that are new to me.
+
+That is why I created TechLingo.fyi to help people understand those mysterious acronyms and jargon that youmay come across in your career as a software developer or data scientist.
+
+The site is built using Astro, a static site generator that uses React and Markdown. It is completely open source and you can find the code on GitHub.
+
+## Adding a new TechLingo
+
+To add a new term and its definition it is necessary to add a new file to the `lingos` folder, please follow this structure:
+
+```json
+{
+  "term": "Human frendly name",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "Short definition in english."
+    },
+    {
+      "lang": "es",
+      "definition": "Short definition in spanish"
+    }
+  ],
+  "slug": "human-friendly-name"
+}
 ```
-npm create astro@latest -- --template basics
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The name of this file must be the same as the value of the property `slug`.

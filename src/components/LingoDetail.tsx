@@ -49,7 +49,7 @@ const LingoDetail = ({
       <div className="flex justify-end mt-2 text-xs">
         <CopyButton className={bottomLinkStyle.join(" ")} slug={slug} lang={language} />
         <a className={bottomLinkStyle.join(" ")} target="_blank" href={`https://twitter.com/intent/tweet?text=${shareableText}`}>Share on Twitter</a>
-        <a className={bottomLinkStyle.join(" ")}  href={`https://github.com/fferegrino/techlingo.fyi/blob/main/lingos/${slug}.json`} >Suggest changes</a>
+        <a className={bottomLinkStyle.join(" ")}  href={`https://github.com/TechLingo-fyi/techlingo.fyi/blob/main/lingos/${slug}.json`} >Suggest changes</a>
       </div>
     </div>
   );
