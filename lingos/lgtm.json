@@ -3,11 +3,11 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "Abbreviation for 'Looks Good To Me', indicating that the speaker approves or agrees with something that has been presented."
+      "definition": "Abbreviation for 'Looks Good To Me', indicating that the person who writes it in a pull request agrees with the changes it contains."
     },
     {
       "lang": "es",
-      "definition": "Acrónimo de 'Parece Bien Para Mí', indicando que el hablante aprueba o está de acuerdo con algo que se ha presentado."
+      "definition": "Acrónimo de 'para mi se ve bien', indicando que el que lo escribe en una pull request está de acuerdo con los cambios hechos."
     }
   ],
   "slug": "lgtm"
