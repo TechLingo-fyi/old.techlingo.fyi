@@ -3,11 +3,11 @@
   "definitions": [
     {
       "lang": "en",
-      "definition": "User Experience. The overall experience that a user has when interacting with a software application."
+      "definition": "User Experience (UX) is the overall feeling and satisfaction a user gets when interacting with a product or service, focusing on ease of use and efficiency."
     },
     {
       "lang": "es",
-      "definition": "Experiencia del Usuario. La experiencia general que un usuario tiene al interactuar con una aplicación de software."
+      "definition": "La Experiencia de Usuario (UX) es la sensación general y satisfacción que un usuario obtiene al interactuar con un producto o servicio, centrándose en la facilidad de uso y eficiencia."
     }
   ],
   "slug": "ux"

@@ -1,0 +1,14 @@
+{
+  "display_name": "UI",
+  "definitions": [
+    {
+      "lang": "en",
+      "definition": "The term User Interface refers to the visual elements of a product or platform, such as buttons, icons, and typography. It's what users interact with directly, involving layout and design, and working alongside UX to provide a smooth experience."
+    },
+    {
+      "lang": "es",
+      "definition": "El término Interfaz de Usuario se refiere a los elementos visuales de un producto o plataforma, como botones, iconos y tipografía. Es con lo que los usuarios interactúan directamente, involucra el diseño y layouts."
+    }
+  ],
+  "slug": "ui"
+}
