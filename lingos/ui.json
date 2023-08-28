@@ -1,5 +1,5 @@
 {
-  "display_name": "UX",
+  "display_name": "UI",
   "definitions": [
     {
       "lang": "en",
@@ -10,5 +10,5 @@
       "definition": "El término Interfaz de Usuario se refiere a los elementos visuales de un producto o plataforma, como botones, iconos y tipografía. Es con lo que los usuarios interactúan directamente, involucra el diseño y layouts."
     }
   ],
-  "slug": "ux"
+  "slug": "ui"
 }
