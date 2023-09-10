@@ -35,21 +35,6 @@ const headerLetterStyle = linkStyle.concat([
   "dark:text-textLight0",
 ]);
 
-const Card = ({ lingos, letter }: { lingos: Lingo[]; letter: string }) => (
-  <div className={cardStyle.join(" ")}>
-    <div className={headerLetterStyle.join(" ")}>{letter}</div>
-    {lingos.map((lingo) => {
-      const identifier = slugify(lingo.display_name, { lower: true });
-      return (
-        <a  href={"/" + identifier}>
-        <div className={linkStyle.join(" ")}>
-          {lingo.display_name}
-        </div>
-        </a>
-      );
-    })}
-  </div>
-);
 const Lingos = ({ lingos }: Lingos) => {
   // Group by first letter of the id property
   const groupedLingos = lingos.reduce((acc, lingo) => {
@@ -74,11 +59,22 @@ const Lingos = ({ lingos }: Lingos) => {
     "after:box-inherit",
   ];
 
+  const array = [];
+  for (const [letter, lingos] of Object.entries(groupedLingos)) {
+    array.push(<div className={headerLetterStyle.join(" ")}>{letter}</div>);
+    for (const lingo of lingos) {
+      array.push(<a  href={"/" + lingo.slug}>
+        <div className={linkStyle.join(" ")}>
+          {lingo.display_name}
+        </div>
+        </a>
+      );
+    }
+  }
+
   return (
-      <div className={columnStyle.join(" ")}>
-        {Object.entries(groupedLingos).map(([letter, lingos]) => (
-          <Card key={letter} letter={letter} lingos={lingos} />
-        ))}
+      <div className={columnStyle.join(" ") + " border"}>
+        {array}
       </div>
   );
 };
