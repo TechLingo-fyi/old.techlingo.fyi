@@ -1,0 +1,17 @@
+{
+  "display_name": "YAGNI",
+  "definitions": [
+    {
+      "lang": "en",
+      "expanded": "You aren't gonna need it",
+      "definition": "is a software development principle that suggests avoiding adding unnecessary features or complexities to the system."
+    },
+    {
+      "lang": "es",
+      "expanded": "No lo vas a necesitar",
+      "definition": "es un principio de desarrollo de software que sugiere evitar añadir funcionalidades o complejidades innecesarias al sistema."
+    }
+  ],
+  "slug": "yagni",
+  "acronym": true
+}
