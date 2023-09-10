@@ -17,12 +17,22 @@ const cardStyle = [
 ];
 
 const termStyle = [
-  "mb-2",
+  "mb-1",
   "text-5xl",
   "font-bold",
   "tracking-tight",
   "text-gray-900",
   "dark:text-white",
+];
+const expandedStyle = [
+  "mb-1",
+  "text-2xl",
+  // "font-bold",
+  "italic",
+  "tracking-tight",
+  "text-gray-900",
+  "dark:text-white",
+  "group",
 ];
 
 const bottomLinkStyle = [
@@ -38,12 +48,26 @@ const LingoDetail = ({
   data, language, slug,
   shareableText
 }: { data: any, language: string, slug: string, shareableText:string }) => {
+
+  var termExpansion = [];
+  if (data.expanded) {
+    for (var i = 0; i < data.expanded.length; i++) {
+      const character = data.expanded[i];
+      // If character is uppercase, make it bold
+      if (character === character.toUpperCase() && data.acronym) {
+        termExpansion.push(<span className="font-bold">{character}</span>);
+      } else {
+        termExpansion.push(character);
+      }
+    }
+  }
+
   return (
     <div className={cardStyle.join(" ")}>
       <h3 className={termStyle.join(" ")}>
         {data.display_name}
       </h3>
-
+      {termExpansion.length > 0 && <div className={expandedStyle.join(" ")}>&quot;{termExpansion}&quot;</div>}
       <LingoDefinitions data={data} language={language} />
 
       <div className="flex justify-end mt-2 text-xs">
