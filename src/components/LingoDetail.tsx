@@ -1,8 +1,7 @@
 import LangMap from "../l18n/Languages";
-import slugify from "slugify";
-import { useTranslations } from "../l18n/ui";
 import ExpandedTerm from "./detail/ExpandedTerm";
 import ContextLinks from "./detail/ContextLinks";
+import OtherLanguageLinks from "./detail/OtherLanguageLinks";
 
 
 const cardStyle = [
@@ -86,18 +85,6 @@ const LingoDetail = ({
   slug: string;
   shareableText: string;
 }) => {
-  var termExpansion = [];
-  if (data.expanded) {
-    for (var i = 0; i < data.expanded.length; i++) {
-      const character = data.expanded[i];
-      // If character is uppercase, make it bold
-      if (character === character.toUpperCase() && data.acronym) {
-        termExpansion.push(<span className="font-bold">{character}</span>);
-      } else {
-        termExpansion.push(character);
-      }
-    }
-  }
 
   const definitionsMap = new Map<string, string>();
   data.definitions.forEach(
@@ -111,35 +98,6 @@ const LingoDetail = ({
   if (currentLangSpec === undefined) {
     console.error("No language found for " + viewingLanguage);
   }
-  const t = useTranslations(viewingLanguage);
-  const linkCss = [
-
-    "underline",
-  ];
-
-  const languages = Array.from(definitionsMap.keys())
-  const links = languages.filter((lang) => lang !== viewingLanguage)
-    .sort((a, b) => {
-      const aLang = LangMap.get(a);
-      const bLang = LangMap.get(b);
-      if (aLang === undefined || bLang === undefined) {
-        return 0;
-      }
-      return aLang.languageName.localeCompare(bLang.languageName);
-    })
-    .map((lang, idx) => {
-      const leng = LangMap.get(lang);
-      const identifier = slugify(data.display_name, { lower: true });
-      const link = `/${identifier}/${lang}`;
-      return (
-        <span>
-        <a key={lang} className={linkCss.join(" ")} href={link}>
-          {leng?.languageName}
-        </a>
-        {idx < languages.length-2 ? ", ": " " }
-        </span>
-      );
-    });
 
   return (
     <div className={cardStyle.join(" ")}>
@@ -163,7 +121,7 @@ const LingoDetail = ({
           )}
         </dl>
         <div className="mt-2 text-gray-600">
-          {t("lingo.otherLanguages")} {links}
+          <OtherLanguageLinks lingo={data} viewingLanguage={viewingLanguage} />
         </div>
       </div>
       <ContextLinks shareableText={shareableText} slug={slug} viewingLanguage={viewingLanguage} />

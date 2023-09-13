@@ -1,4 +1,5 @@
 import slugify from "slugify";
+import type { Lingo } from "../entities/Lingo";
 
 interface Lingos {
   lingos: Lingo[];
