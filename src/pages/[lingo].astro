@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LingoDetail from "../components/LingoDetail";
+import type { Lingo } from "../entities/Lingo";
 
 export async function getStaticPaths() {
-  const jsons = await Astro.glob("../../lingos/*.json");
+  const jsons : Lingo[] = await Astro.glob("../../lingos/*.json");
 
   const list = jsons.map((json) => {
     const languages = new Array();
@@ -31,8 +32,9 @@ export async function getStaticPaths() {
 
 const { lingo } = Astro.params;
 const { data } = Astro.props;
+const l = data as Lingo;
 
-const dscription = data.definitions.filter((definition) => {
+const dscription = l.definitions.filter((definition) => {
   return definition.lang === "en";
 })[0].definition;
 
@@ -42,5 +44,5 @@ const shareableText = `${dscription} https://techlingo.fyi/${path}`
 ---
 
 <Layout title={data.display_name} description={dscription} path={path}>
-  <LingoDetail client:only  shareableText={shareableText}  data={data} language="en" slug={lingo} />
+  <LingoDetail client:only  shareableText={shareableText}  data={data} viewingLanguage="en" slug={lingo} />
 </Layout>

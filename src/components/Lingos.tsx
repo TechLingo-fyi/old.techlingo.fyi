@@ -1,10 +1,5 @@
 import slugify from "slugify";
 
-interface Lingo {
-  id: string;
-  display_name: string;
-}
-
 interface Lingos {
   lingos: Lingo[];
 }

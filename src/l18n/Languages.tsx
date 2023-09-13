@@ -8,6 +8,7 @@ interface Language {
 }
 
 const languages = json as Language[];
+
 const LangMap = new Map<string, Language>();
 languages.forEach((lang) => {
   LangMap.set(lang.code, lang);

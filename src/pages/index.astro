@@ -1,8 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LingoCards from "../components/Lingos";
+import type { Lingo } from "../entities/Lingo";
 
-const jsons = await Astro.glob("../../lingos/*.json");
+const jsons : Lingo[] = await Astro.glob("../../lingos/*.json");
 ---
 
 <Layout title="TechLingo.fyi" description="TechLingo.fyi is a free resource for people who want to learn about the jargon and acronyms used in the tech industry." path="">

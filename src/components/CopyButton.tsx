@@ -4,10 +4,12 @@ const CopyButton = ({
   slug,
   lang,
   className,
+  text
 }: {
   slug: string;
   lang: string;
   className: string;
+  text: string;
   size?: number;
 }) => {
   const copyToClipBoard = async (event: any) => {
@@ -29,7 +31,7 @@ const CopyButton = ({
       data-lang={lang}
       onClick={copyToClipBoard}
       className={className}
-    >Copy permalink</a>
+    >{text}</a>
   );
 };
 export default CopyButton;
