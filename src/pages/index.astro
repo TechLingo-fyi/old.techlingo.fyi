@@ -7,5 +7,5 @@ const jsons : Lingo[] = await Astro.glob("../../lingos/*.json");
 ---
 
 <Layout title="TechLingo.fyi" description="TechLingo.fyi is a free resource for people who want to learn about the jargon and acronyms used in the tech industry." path="">
-    <LingoCards lingos={jsons} />
+    <LingoCards lingos={jsons} client:load />
 </Layout>
