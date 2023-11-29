@@ -2,30 +2,30 @@ import slugify from "slugify";
 import type { ReactNode } from "react";
 
 import type { Lingo } from "../entities/Lingo";
+import { hoverBackground } from "../styles";
 import { Accordion } from "./common";
 
 interface Lingos {
   lingos: Lingo[];
 }
 
-const linkStyle = [
+const linkStyle = hoverBackground.concat([
+  "pl-7",
   "p-3",
   "text-xl",
-  "dark:text-textLight0",
-  "hover:bg-gray-200",
-  "dark:hover:text-textLight0",
-  "dark:hover:bg-gray-700",
-  "[&:last-child]:border-b [&:last-child]:border-gray-600",
-  "[&:not(:last-child)]:border-b [&:not(:last-child)]:border-gray-900",
-];
+  "border-b",
+  "dark:border-gray-600",
+]);
 
-const headerLetterStyle = linkStyle.concat([
+const headerLetterStyle = [
+  "p-3",
+  "text-xl",
   "font-bold",
   "text-gray-900",
   "overflow-hidden",
-  "dark:text-textLight0",
   "border-none",
-]);
+  "dark:text-textLight0",
+];
 
 const columnStyle = [
   "columns-1",

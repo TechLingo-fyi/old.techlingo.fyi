@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { ReactNode } from "react";
 
 import { ChevronDown, ChevronUp } from "../icons";
+import { hoverBackground } from "../../styles";
 
 export type AccordionProps = {
   children: ReactNode;
@@ -15,16 +16,16 @@ const containerStyle = [
 
 const headerStyle = [
   "relative",
-  "dark:text-textLight0",
   "border-b",
   "border-gray-500",
+  "dark:text-textLight0",
 ];
 
-const buttonStyle = [
+const buttonStyle = hoverBackground.concat([
   "w-full",
   "text-left",
-  "pl-4"
-];
+  "pl-4",
+]);
 
 const arrowStyle = [
   "absolute",

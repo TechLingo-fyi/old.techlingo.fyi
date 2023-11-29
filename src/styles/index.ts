@@ -1,0 +1,1 @@
+export { hoverBackground } from "./common";
